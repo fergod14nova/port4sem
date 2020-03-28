@@ -1,0 +1,70 @@
+/*Documento Inteiro -----------------------------*/
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu ------------------------------------------*/
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+li{
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    width: 20%;
+    padding: 5px; margin: 5px;
+    background-color: orange;
+}
+
+.item:hover a{
+    color: white;
+    /*Efeito de transição nos hyperlinks*/
+}
+
+
+/*Instruções e título------------------------------*/
+.inst p, h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+/*Configuração do cabeçalho -------------------------*/
+
+    
+
+
+
+/*Configuração do rodapé ----------------------------*/
+.ft div{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    
+    font-size: 18px; font-family: sans-serif;
+    /*área do rodapé*/
+}
+
+#nustre {
+    font-size: 22px;
+    /*site desenvolvido por....*/
+}
+.ft a{
+    text-decoration: none;
+    color: yellow;
+    /*hyperlink precisa de ajuda?*/
+}
